@@ -1,0 +1,110 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Mar 17 10:24:03 2024
+[*]
+[dumpfile] "/home/ubuntu/Project/2024s-advanced-soc-design/lab1-fsic-sim/fsic_fpga/rtl/user/testbench/tc/fsic_fir.vcd"
+[dumpfile_mtime] "Sun Mar 17 10:22:24 2024"
+[dumpfile_size] 85127948
+[savefile] "/home/ubuntu/Project/2024s-advanced-soc-design/lab1-fsic-sim/fsic_fpga/rtl/user/testbench/tc/fsic_fir.gtkw"
+[timestart] 293650000
+[size] 1724 988
+[pos] 104 -1057
+*-18.131367 294505000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_fsic.
+[treeopen] tb_fsic.dut.
+[treeopen] tb_fsic.dut.U_USER_SUBSYS0.
+[treeopen] tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.
+[treeopen] tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.
+[sst_width] 258
+[signals_width] 227
+[sst_expanded] 1
+[sst_vpaned_height] 288
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.axis_clk
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.cur_state[2:0]
+@29
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.ap_done
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.ap_idle
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.ap_start
+@24
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.cnt[3:0]
+@200
+-
+-AXI-lite
+@22
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.awaddr[11:0]
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.awready
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.awvalid
+@22
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.wdata[31:0]
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.wready
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.wvalid
+@200
+-
+-AXI-stream in
+@22
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.ss_idx[3:0]
+@420
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.ss_tdata[31:0]
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.ss_tvalid
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.ss_tready
+@200
+-
+-Tap ram
+@24
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.tap_RAM.waddr[11:0]
+@420
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.tap_RAM.wdi[31:0]
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.tap_RAM.we
+@200
+-
+-Data ram
+@24
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.data_RAM.waddr[11:0]
+@420
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.data_RAM.wdi[31:0]
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.data_RAM.we
+@200
+-
+@420
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.tap_Do[31:0]
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.data_Do[31:0]
+@200
+-
+@420
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.acc[31:0]
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.product_i[31:0]
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.y_buffer[31:0]
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.y_done
+@200
+-
+-AXI-stream out
+@420
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.sm_tdata[31:0]
+@28
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.sm_tready
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.sm_tvalid
+tb_fsic.dut.U_USER_SUBSYS0.U_USRPRJ1.fir.sm_tlast
+@200
+-
+@28
+tb_fsic.fpga_is_as_tvalid
+@420
+tb_fsic.fpga_is_as_tdata[31:0]
+@28
+tb_fsic.fpga_is_as_tready
+tb_fsic.fpga_is_as_tuser[1:0]
+tb_fsic.fpga_is_as_tid[1:0]
+@22
+tb_fsic.fpga_is_as_tkeep[3:0]
+@28
+tb_fsic.fpga_is_as_tlast
+[pattern_trace] 1
+[pattern_trace] 0

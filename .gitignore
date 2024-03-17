@@ -32,6 +32,11 @@
 *.app
 
 .DS_Store
-.log
-.vcd
+*.log
+*.vcd
+xsim.*
+*.jou
+*.pb
+*.wdb
 .vscode
+!xsim.log
