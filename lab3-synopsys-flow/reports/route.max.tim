@@ -1,0 +1,78 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+        -input_pins
+        -nets
+        -transition_time
+        -capacitance
+Design : i2c_master_top
+Version: S-2021.06-SP5
+Date   : Tue May 28 20:02:46 2024
+****************************************
+
+  Startpoint: byte_controller/bit_controller/cnt_reg[8] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: byte_controller/bit_controller/cnt_reg[1] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: wb_clk_i
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  byte_controller/bit_controller/cnt_reg[8]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.20      0.00      0.00 r
+  byte_controller/bit_controller/cnt_reg[8]/Q (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.01      0.06      0.06 f
+  byte_controller/bit_controller/cnt[8] (net)       3      1.96
+  byte_controller/bit_controller/U84/A (SAEDRVT14_INV_S_0P5)         0.01      0.00      0.06 f
+  byte_controller/bit_controller/U84/X (SAEDRVT14_INV_S_0P5)         0.01      0.01      0.08 r
+  byte_controller/bit_controller/n70_CDR1 (net)     2      1.56
+  byte_controller/bit_controller/clockctmTdsLR_1_693/A2 (SAEDRVT14_AN4_0P5)
+                                                                     0.01      0.00      0.08 r
+  byte_controller/bit_controller/clockctmTdsLR_1_693/X (SAEDRVT14_AN4_0P5)
+                                                                     0.01      0.02      0.10 r
+  byte_controller/bit_controller/tmp_net27 (net)    1      1.16
+  byte_controller/bit_controller/U55/A4 (SAEDRVT14_AN4_0P5)          0.01      0.00      0.10 r
+  byte_controller/bit_controller/U55/X (SAEDRVT14_AN4_0P5)           0.01      0.02      0.12 r
+  byte_controller/bit_controller/n116 (net)         1      1.81
+  byte_controller/bit_controller/U53/A1 (SAEDRVT14_OR4_1)            0.01      0.00      0.12 r
+  byte_controller/bit_controller/U53/X (SAEDRVT14_OR4_1)             0.01      0.02      0.14 r
+  byte_controller/bit_controller/N66 (net)          4      3.26
+  byte_controller/bit_controller/U13/A (SAEDRVT14_INV_S_0P75)        0.01      0.00      0.14 r
+  byte_controller/bit_controller/U13/X (SAEDRVT14_INV_S_0P75)        0.05      0.05      0.19 f
+  byte_controller/bit_controller/n22 (net)         16     15.12
+  byte_controller/bit_controller/U52/A2 (SAEDRVT14_ND2_ECO_1)        0.05      0.00      0.19 f
+  byte_controller/bit_controller/U52/X (SAEDRVT14_ND2_ECO_1)         0.09      0.07      0.26 r
+  byte_controller/bit_controller/n9 (net)          17     14.59
+  byte_controller/bit_controller/U14/A1 (SAEDRVT14_AN2_MM_0P5)       0.09      0.00      0.26 r
+  byte_controller/bit_controller/U14/X (SAEDRVT14_AN2_MM_0P5)        0.07      0.07      0.33 r
+  byte_controller/bit_controller/n8 (net)          16     11.41
+  byte_controller/bit_controller/U104/A2 (SAEDRVT14_AO221_0P5)       0.07      0.00      0.33 r
+  byte_controller/bit_controller/U104/X (SAEDRVT14_AO221_0P5)        0.01      0.04      0.37 r
+  byte_controller/bit_controller/n161 (net)         1      1.25
+  byte_controller/bit_controller/cnt_reg[1]/D (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.01      0.00      0.37 r
+  data arrival time                                                                      0.37
+
+  clock wb_clk_i (rise edge)                                                   2.00      2.00
+  clock network delay (ideal)                                                  0.00      2.00
+  byte_controller/bit_controller/cnt_reg[1]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.20      0.00      2.00 r
+  clock uncertainty                                                           -0.30      1.70
+  library setup time                                                           0.00      1.70
+  data required time                                                                     1.70
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     1.70
+  data arrival time                                                                     -0.37
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            1.33
+
+
+1

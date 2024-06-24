@@ -1,0 +1,52 @@
+ Info: Initializing timer in CLOCK_SYN_REPORT_MODE
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+****************************************
+Report : clock qor
+        -type summary
+Design : i2c_master_top
+Version: S-2021.06-SP5
+Date   : Tue May 28 19:58:00 2024
+****************************************
+
+Attributes
+===========
+M Master Clock
+G Generated Clock
+& Internal Generated Clock
+U User Defined Skew Group
+D Default Skew Group
+* Generated Clock Balanced Separately
+
+===========================================
+==== Summary Reporting for Corner fast ====
+===========================================
+
+======================================================= Summary Table for Corner fast ========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+----------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func_fast
+wb_clk_i                                M,D       153      2        3      1.20      1.20      0.03      0.03         0         0    594.89
+----------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                        153      2        3      1.20      1.20      0.03      0.03         0         0    594.89
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+===========================================
+==== Summary Reporting for Corner slow ====
+===========================================
+
+======================================================= Summary Table for Corner slow ========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+----------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func_slow
+wb_clk_i                                M,D       153      2        3      1.20      1.20      0.03      0.03         0         0    594.89
+----------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                        153      2        3      1.20      1.20      0.03      0.03         0         0    594.89
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+1

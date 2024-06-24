@@ -40,3 +40,20 @@ xsim.*
 *.wdb
 .vscode
 !xsim.log
+
+# lab2 
+Catapult*
+
+# lab3 synopsys
+lab3-synopsys-flow/common
+lab3-synopsys-flow/input
+lab3-synopsys-flow/lab_formal
+lab3-synopsys-flow/lab_icv_drc
+lab3-synopsys-flow/lab_icv_lvs
+lab3-synopsys-flow/lab_pt
+lab3-synopsys-flow/lab_starRC
+lab3-synopsys-flow/lab_synthesis
+lab3-synopsys-flow/lab1_planning
+lab3-synopsys-flow/lab2_pnr
+lab3-synopsys-flow/lab4_finishing
+lab3-synopsys-flow/results

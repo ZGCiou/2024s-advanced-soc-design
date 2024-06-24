@@ -1,0 +1,262 @@
+--- Snapshot Timing Progress ---
+------------------------------------------------------------------------------------------------------------------------ 
+Snapshot                   WNS       TNS      Hold  Cell Cnt      Area   Buf/Inv      Util    CPU(s)   Mem(Mb)      Host 
+------------------------------------------------------------------------------------------------------------------------ 
+place_qor_snp.ss.sum.full     1.3889    0.0000    0.0231       701   320.568       150    0.1975        48       989      ee22 
+clock_pre_route.ss.sum.full     1.3744    0.0000   -0.0071       704   321.767       153    0.1982        82      1538      ee22 
+clock.ss.sum.full       1.2997    0.0000    0.0031       712   329.892       152    0.2032       125      1538      ee22 
+route.ss.sum.full       1.3282    0.0000    0.0260       712   329.892       152    0.2032       149      1538      ee22 
+
+
+
+***********************************************
+Report          : create_qor_snapshot (place_qor_snp)
+Design          : i2c_master_top
+Version         : S-2021.06-SP5
+Date            : Tue May 28 19:45:17 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /RAID2/COURSE/asoc/asoc010/Lab/lab3_synopsys-flow/lab2_pnr/work/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+wb_clk_i                                    1.3999    1.3889 
+------------------------------------------------------------------------
+Setup WNS:                                  1.3999    1.3889      1.3889 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                   0.0231    0.0238      0.0231 
+Hold TNS:                                   0.0000    0.0000      0.0000 
+Number of hold violations:                       0         0           0 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            320.568
+Cell count:                                                          701
+Buf/inv cell count:                                                  150
+Std cell utilization:                                             0.1975
+CPU(s):                                                               48
+Mem(Mb):                                                             989
+Host name:                                                          ee22
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:         0    0 
+  -0.06 ~ above  ---    0    0 
+  -0.05 ~ -0.06  ---    0    0 
+  -0.04 ~ -0.05  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    0    0 
+------------------------------------------------------------------------
+
+
+
+***********************************************
+Report          : create_qor_snapshot (clock_pre_route)
+Design          : i2c_master_top
+Version         : S-2021.06-SP5
+Date            : Tue May 28 19:55:39 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /RAID2/COURSE/asoc/asoc010/Lab/lab3_synopsys-flow/lab2_pnr/work/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+wb_clk_i                                    1.3868    1.3744 
+------------------------------------------------------------------------
+Setup WNS:                                  1.3868    1.3744      1.3744 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                  -0.0055   -0.0071     -0.0071 
+Hold TNS:                                  -0.0055   -0.0071     -0.0071 
+Number of hold violations:                       1         1           1 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            321.767
+Cell count:                                                          704
+Buf/inv cell count:                                                  153
+Std cell utilization:                                             0.1982
+CPU(s):                                                               82
+Mem(Mb):                                                            1538
+Host name:                                                          ee22
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:         1    1 
+  -0.06 ~ above  ---    0    0 
+  -0.05 ~ -0.06  ---    0    0 
+  -0.04 ~ -0.05  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    1    1 
+------------------------------------------------------------------------
+
+
+
+***********************************************
+Report          : create_qor_snapshot (clock)
+Design          : i2c_master_top
+Version         : S-2021.06-SP5
+Date            : Tue May 28 19:58:02 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /RAID2/COURSE/asoc/asoc010/Lab/lab3_synopsys-flow/lab2_pnr/work/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+wb_clk_i                                    1.3220    1.2997 
+------------------------------------------------------------------------
+Setup WNS:                                  1.3220    1.2997      1.2997 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                   0.0043    0.0031      0.0031 
+Hold TNS:                                   0.0000    0.0000      0.0000 
+Number of hold violations:                       0         0           0 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            329.892
+Cell count:                                                          712
+Buf/inv cell count:                                                  152
+Std cell utilization:                                             0.2032
+CPU(s):                                                              125
+Mem(Mb):                                                            1538
+Host name:                                                          ee22
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:         0    0 
+  -0.06 ~ above  ---    0    0 
+  -0.05 ~ -0.06  ---    0    0 
+  -0.04 ~ -0.05  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    0    0 
+------------------------------------------------------------------------
+
+
+
+***********************************************
+Report          : create_qor_snapshot (route)
+Design          : i2c_master_top
+Version         : S-2021.06-SP5
+Date            : Tue May 28 20:02:46 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /RAID2/COURSE/asoc/asoc010/Lab/lab3_synopsys-flow/lab2_pnr/work/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+wb_clk_i                                    1.3476    1.3282 
+------------------------------------------------------------------------
+Setup WNS:                                  1.3476    1.3282      1.3282 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                   0.0260    0.0272      0.0260 
+Hold TNS:                                   0.0000    0.0000      0.0000 
+Number of hold violations:                       0         0           0 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            329.892
+Cell count:                                                          712
+Buf/inv cell count:                                                  152
+Std cell utilization:                                             0.2032
+CPU(s):                                                              149
+Mem(Mb):                                                            1538
+Host name:                                                          ee22
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:         0    0 
+  -0.06 ~ above  ---    0    0 
+  -0.05 ~ -0.06  ---    0    0 
+  -0.04 ~ -0.05  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    0    0 
+------------------------------------------------------------------------
+Snapshot report (index) is created and can be viewed using file "/RAID2/COURSE/asoc/asoc010/Lab/lab3_synopsys-flow/lab2_pnr/work/.//index.html"
+true
